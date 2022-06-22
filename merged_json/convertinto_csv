@@ -1,0 +1,28 @@
+import pandas as pd
+
+# load json file using pandas
+# df1 = pd.read_json('sajhalinks.json')
+
+# # view data
+# print(df1)
+
+# load json file using pandas
+data= pd.read_json('full_sajha_descp.json', lines = "True")
+
+# view data
+print(data)
+
+# # use pandas.concat method
+# df = pd.concat([df1,df2])
+
+# # view the concatenated dataframe
+# print(df)
+
+# # convert dataframe to csv file
+# df.to_csv("CSV.csv",index=False)
+
+# load the resultant csv file
+# result = pd.read_csv("CSV.csv")
+
+# # and view the data
+# print(result)
