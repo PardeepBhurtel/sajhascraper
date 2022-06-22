@@ -1,4 +1,4 @@
-Job_DetailsOf_Sajha_Scraping_Using_BeautifulSoup
+Job_DetailsOf_Sajha_Scraping_Using_Scrapy_Tools
 Scrape all job detail from "https://sajha.com/sajha/html/index.cfm" using Scrapy Tools
 
 First you need to install some required libraries
